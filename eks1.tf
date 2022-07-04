@@ -12,6 +12,7 @@ vpc_config {
 depends_on = [
  aws_iam_role_policy_attachment.demo-cluster-AmaoznEKSClusterPolicy,
  aws_iam_role_policy_attachment.demo-cluster-AmazonEKSVPCResourceController,
+  aws_iam_role_policy_attachment.demo-cluster-AmazonEKSServicePolicy,
  
  ]
  
